@@ -1,59 +1,133 @@
-# GabrielPortifolio
+# 💻 Portfólio Pessoal — Gabriel San Gregorio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.7.
+Portfólio desenvolvido com Angular para apresentar minha trajetória, conhecimentos técnicos e projetos na área de tecnologia.
 
-## Development server
+## 📌 Sobre o projeto
 
-To start a local development server, run:
+O objetivo é reunir, em um único lugar, informações sobre quem sou, minha formação e os projetos que desenvolvo enquanto avanço para me tornar desenvolvedor Full Stack, com foco em C# e .NET.
+
+A primeira versão será inteiramente frontend, com textos, imagens e links mantidos na própria aplicação, sem API ou banco de dados.
+
+## 🚧 Status
+
+Em desenvolvimento — fase inicial de estruturação.
+
+As seções e funcionalidades descritas abaixo fazem parte do planejamento e serão implementadas gradualmente.
+
+## 🎯 Seções planejadas
+
+- **Início:** nome, foto, apresentação e botões para GitHub e LinkedIn.
+- **Sobre mim:** formação acadêmica, trajetória e objetivos profissionais.
+- **Tecnologias:** apresentação dos conhecimentos e ferramentas utilizados.
+- **Projetos:** cards com imagens, descrição, tecnologias e links dos repositórios.
+- **Contato:** links para redes profissionais e contato por e-mail.
+
+## 🛠️ Tecnologias
+
+- Angular
+- TypeScript
+- HTML
+- CSS
+- Git e GitHub
+
+## 🎨 Proposta visual
+
+- Página única com navegação entre seções.
+- Tema escuro com detalhes em azul.
+- Layout responsivo para computadores e celulares.
+- Cards para apresentação dos projetos.
+- Animações discretas.
+- Atenção à acessibilidade e à legibilidade.
+
+## 📂 Projetos previstos
+
+| Projeto | Descrição | Tecnologias |
+| --- | --- | --- |
+| MacFeliz | Aplicação de lanches com catálogo e carrinho de compras | C#, ASP.NET MVC e SQL Server |
+| JetAPI | API desenvolvida para praticar persistência de dados | .NET e Entity Framework |
+| FinancasFlow | Aplicativo financeiro com interação por chat | C# e .NET MAUI |
+
+Cada projeto terá uma apresentação com seu objetivo, tecnologias utilizadas, imagens e link para o repositório.
+
+## ▶️ Como executar
+
+### Pré-requisitos
+
+- Node.js em uma versão compatível com o Angular do projeto.
+- npm.
+- Git.
+
+### Passo a passo
+
+1. Clone o repositório:
+
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   ```
+
+2. Entre na pasta do projeto:
+
+   ```bash
+   cd <PASTA_DO_PROJETO>
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie a aplicação:
+
+   ```bash
+   npm start
+   ```
+
+5. Acesse no navegador:
+
+   ```text
+   http://localhost:4200
+   ```
+
+> Substitua os campos entre `< >` pelos dados do repositório. Caso o terminal indique outra porta, utilize o endereço exibido.
+
+## 📦 Build de produção
 
 ```bash
-ng serve
+npm run build
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Os arquivos gerados estarão na pasta `dist/`, conforme a configuração do projeto.
 
-## Code scaffolding
+## 📋 Próximos passos
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- [ ] Criar o cabeçalho e o menu de navegação.
+- [ ] Desenvolver a seção inicial.
+- [ ] Adicionar foto e apresentação pessoal.
+- [ ] Criar a seção sobre minha trajetória.
+- [ ] Exibir as tecnologias estudadas.
+- [ ] Desenvolver os cards dos projetos.
+- [ ] Adicionar capturas de tela e imagens de código.
+- [ ] Configurar os links de contato e redes sociais.
+- [ ] Ajustar o layout para dispositivos móveis.
+- [ ] Revisar acessibilidade e navegação pelo teclado.
+- [ ] Publicar a primeira versão.
 
-```bash
-ng generate component component-name
-```
+## 📚 Objetivos de aprendizado
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Praticar a componentização com Angular.
+- Desenvolver interfaces responsivas com HTML e CSS.
+- Trabalhar com TypeScript.
+- Organizar o código e os arquivos do projeto.
+- Utilizar Git e GitHub para versionamento.
+- Construir um portfólio que acompanhe minha evolução profissional.
 
-```bash
-ng generate --help
-```
+## 👨‍💻 Autor
 
-## Building
+**Gabriel San Gregorio**
 
-To build the project run:
+Formado em Sistemas de Informação e estudante de Análise e Desenvolvimento de Sistemas.
 
-```bash
-ng build
-```
+Desenvolvedor .NET em formação, com o objetivo de atuar como Full Stack.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[GitHub](https://github.com/gabs1san)
